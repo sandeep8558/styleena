@@ -1,0 +1,28 @@
+{
+  "name": "styleena",
+  "version": "1.0.0",
+  "description": "This is awesome css library for embalishing web pages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sandeep8558/styleena.git"
+  },
+  "keywords": [
+    "css",
+    "images",
+    "style",
+    "ui"
+  ],
+  "author": "Sandeep Rathod",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sandeep8558/styleena/issues"
+  },
+  "homepage": "https://github.com/sandeep8558/styleena#readme",
+  "dependencies": {
+    "sass": "^1.75.0"
+  }
+}
