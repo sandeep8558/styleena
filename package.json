@@ -1,10 +1,12 @@
 {
   "name": "styleena",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "This is awesome css library for embalishing web pages",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "watch": "sass src/main.scss dist/styleena.css --watch",
+    "dev": "sass src/main.scss dist/styleena.css",
+    "build": "sass src/main.scss dist/styleena.min.css --style compressed"
   },
   "repository": {
     "type": "git",
