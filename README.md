@@ -3,6 +3,15 @@
 
 This is an awesome libraby for styling html pages
 
+## Install Styling
+
+Install styleena using npm package manager
+
+```bash
+  npm i styleena
+```
+
+
 ## Image Styling
 
 How to use classes with images
@@ -23,18 +32,6 @@ How to use classes with images
     <img src="" class="image-cover" />
   </div>
 ```
-## Special Thanks
-
- - [Leena IT Solutions](https://leenaitsolutions.com)
- - [README](https://github.com/sandeep8558)
- 
-
-
-## Authors
-
-- [@sandeep8558](https://github.com/sandeep8558)
-
-
 ## Image common class
 
 - image
@@ -71,3 +68,15 @@ How to use classes with images
 - Large - lg
 - Extra Large - xl
 - Extra Extra Large - xxl
+## Special Thanks
+
+ - [Leena IT Solutions](https://leenaitsolutions.com)
+ - [README](https://github.com/sandeep8558)
+ 
+
+
+## Authors
+
+- [@sandeep8558](https://github.com/sandeep8558)
+- [Sandeep Rathod](https://svrathod.com)
+
