@@ -77,6 +77,19 @@ Sometimes it is essential to use Overlay for images, here is how to use this app
 - image-contain
 
 
+## Image position classes
+
+- image-center
+- image-left
+- image-right
+- image-top
+- image-top-left
+- image-top-right
+- image-bottom
+- image-bottom-left
+- image-bottom-right
+
+
 
 ## Available image ratio classes
 

@@ -5,6 +5,13 @@
   text-align: left;
 }
 
+.image img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+}
+
 .image-overlay {
   position: absolute;
   width: 100%;
@@ -12,48 +19,59 @@
   z-index: 1;
 }
 
-.image img.image-contain {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  -o-object-fit: contain;
-  object-fit: contain;
-  -o-object-position: center;
-  object-position: center;
-  z-index: 0;
-}
-
-.image img.image-cover {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  -o-object-fit: cover;
-  object-fit: cover;
-  -o-object-position: center;
-  object-position: center;
-  z-index: 0;
-}
-
 div.image-contain img {
-  position: absolute;
-  height: 100%;
-  width: 100%;
   -o-object-fit: contain;
   object-fit: contain;
-  -o-object-position: center;
-  object-position: center;
-  z-index: 0;
 }
 
 div.image-cover img {
-  position: absolute;
-  height: 100%;
-  width: 100%;
   -o-object-fit: cover;
   object-fit: cover;
-  -o-object-position: center;
-  object-position: center;
-  z-index: 0;
+}
+
+.image-center img {
+  -o-object-position: 50% 50%;
+  object-position: 50% 50%;
+}
+
+.image-left img {
+  -o-object-position: 0% 50%;
+  object-position: 0% 50%;
+}
+
+.image-right img {
+  -o-object-position: 100% 50%;
+  object-position: 100% 50%;
+}
+
+.image-top img {
+  -o-object-position: 50% 0%;
+  object-position: 50% 0%;
+}
+
+.image-top-left img {
+  -o-object-position: 0% 0%;
+  object-position: 0% 0%;
+}
+
+.image-top-right img {
+  -o-object-position: 100% 0%;
+  object-position: 100% 0%;
+}
+
+.image-bottom img {
+  -o-object-position: 50% 100%;
+  object-position: 50% 100%;
+}
+
+.image-bottom-left img {
+  -o-object-position: 0% 100%;
+  object-position: 0% 100%;
+}
+
+.image-bottom-right img {
+  -o-object-position: 100% 100%;
+  object-position: 100% 100%;
 }
 
 .image-2x {
@@ -114,6 +132,42 @@ div.image-cover img {
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
+  .image-sm-center img {
+    -o-object-position: 50% 50%;
+    object-position: 50% 50%;
+  }
+  .image-sm-left img {
+    -o-object-position: 0% 50%;
+    object-position: 0% 50%;
+  }
+  .image-sm-right img {
+    -o-object-position: 100% 50%;
+    object-position: 100% 50%;
+  }
+  .image-sm-top img {
+    -o-object-position: 50% 0%;
+    object-position: 50% 0%;
+  }
+  .image-sm-top-left img {
+    -o-object-position: 0% 0%;
+    object-position: 0% 0%;
+  }
+  .image-sm-top-right img {
+    -o-object-position: 100% 0%;
+    object-position: 100% 0%;
+  }
+  .image-sm-bottom img {
+    -o-object-position: 50% 100%;
+    object-position: 50% 100%;
+  }
+  .image-sm-bottom-left img {
+    -o-object-position: 0% 100%;
+    object-position: 0% 100%;
+  }
+  .image-sm-bottom-right img {
+    -o-object-position: 100% 100%;
+    object-position: 100% 100%;
+  }
   .image-sm-2x {
     padding-bottom: 200%;
   }
@@ -159,6 +213,42 @@ div.image-cover img {
 }
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+  .image-md-center img {
+    -o-object-position: 50% 50%;
+    object-position: 50% 50%;
+  }
+  .image-md-left img {
+    -o-object-position: 0% 50%;
+    object-position: 0% 50%;
+  }
+  .image-md-right img {
+    -o-object-position: 100% 50%;
+    object-position: 100% 50%;
+  }
+  .image-md-top img {
+    -o-object-position: 50% 0%;
+    object-position: 50% 0%;
+  }
+  .image-md-top-left img {
+    -o-object-position: 0% 0%;
+    object-position: 0% 0%;
+  }
+  .image-md-top-right img {
+    -o-object-position: 100% 0%;
+    object-position: 100% 0%;
+  }
+  .image-md-bottom img {
+    -o-object-position: 50% 100%;
+    object-position: 50% 100%;
+  }
+  .image-md-bottom-left img {
+    -o-object-position: 0% 100%;
+    object-position: 0% 100%;
+  }
+  .image-md-bottom-right img {
+    -o-object-position: 100% 100%;
+    object-position: 100% 100%;
+  }
   .image-md-2x {
     padding-bottom: 200%;
   }
@@ -204,6 +294,42 @@ div.image-cover img {
 }
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+  .image-lg-center img {
+    -o-object-position: 50% 50%;
+    object-position: 50% 50%;
+  }
+  .image-lg-left img {
+    -o-object-position: 0% 50%;
+    object-position: 0% 50%;
+  }
+  .image-lg-right img {
+    -o-object-position: 100% 50%;
+    object-position: 100% 50%;
+  }
+  .image-lg-top img {
+    -o-object-position: 50% 0%;
+    object-position: 50% 0%;
+  }
+  .image-lg-top-left img {
+    -o-object-position: 0% 0%;
+    object-position: 0% 0%;
+  }
+  .image-lg-top-right img {
+    -o-object-position: 100% 0%;
+    object-position: 100% 0%;
+  }
+  .image-lg-bottom img {
+    -o-object-position: 50% 100%;
+    object-position: 50% 100%;
+  }
+  .image-lg-bottom-left img {
+    -o-object-position: 0% 100%;
+    object-position: 0% 100%;
+  }
+  .image-lg-bottom-right img {
+    -o-object-position: 100% 100%;
+    object-position: 100% 100%;
+  }
   .image-lg-2x {
     padding-bottom: 200%;
   }
@@ -249,6 +375,42 @@ div.image-cover img {
 }
 /* // Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+  .image-xl-center img {
+    -o-object-position: 50% 50%;
+    object-position: 50% 50%;
+  }
+  .image-xl-left img {
+    -o-object-position: 0% 50%;
+    object-position: 0% 50%;
+  }
+  .image-xl-right img {
+    -o-object-position: 100% 50%;
+    object-position: 100% 50%;
+  }
+  .image-xl-top img {
+    -o-object-position: 50% 0%;
+    object-position: 50% 0%;
+  }
+  .image-xl-top-left img {
+    -o-object-position: 0% 0%;
+    object-position: 0% 0%;
+  }
+  .image-xl-top-right img {
+    -o-object-position: 100% 0%;
+    object-position: 100% 0%;
+  }
+  .image-xl-bottom img {
+    -o-object-position: 50% 100%;
+    object-position: 50% 100%;
+  }
+  .image-xl-bottom-left img {
+    -o-object-position: 0% 100%;
+    object-position: 0% 100%;
+  }
+  .image-xl-bottom-right img {
+    -o-object-position: 100% 100%;
+    object-position: 100% 100%;
+  }
   .image-xl-2x {
     padding-bottom: 200%;
   }
@@ -294,6 +456,42 @@ div.image-cover img {
 }
 /* // Extra Extra large devices (large desktops, 1400px and up) */
 @media (min-width: 1400px) {
+  .image-xxl-center img {
+    -o-object-position: 50% 50%;
+    object-position: 50% 50%;
+  }
+  .image-xxl-left img {
+    -o-object-position: 0% 50%;
+    object-position: 0% 50%;
+  }
+  .image-xxl-right img {
+    -o-object-position: 100% 50%;
+    object-position: 100% 50%;
+  }
+  .image-xxl-top img {
+    -o-object-position: 50% 0%;
+    object-position: 50% 0%;
+  }
+  .image-xxl-top-left img {
+    -o-object-position: 0% 0%;
+    object-position: 0% 0%;
+  }
+  .image-xxl-top-right img {
+    -o-object-position: 100% 0%;
+    object-position: 100% 0%;
+  }
+  .image-xxl-bottom img {
+    -o-object-position: 50% 100%;
+    object-position: 50% 100%;
+  }
+  .image-xxl-bottom-left img {
+    -o-object-position: 0% 100%;
+    object-position: 0% 100%;
+  }
+  .image-xxl-bottom-right img {
+    -o-object-position: 100% 100%;
+    object-position: 100% 100%;
+  }
   .image-xxl-2x {
     padding-bottom: 200%;
   }
