@@ -1,8 +1,10 @@
 {
   "name": "styleena",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "This is awesome css library for embalishing web pages",
   "main": "index.js",
+  "sass": "src/scss/main.scss",
+  "style": "dist/styleena.css",
   "scripts": {
     "watch": "sass src/main.scss dist/styleena.css --watch",
     "dev": "sass src/main.scss dist/styleena.css",
