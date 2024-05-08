@@ -1,6 +1,6 @@
 {
   "name": "styleena",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "This is awesome css library for embalishing web pages",
   "main": "index.js",
   "sass": "src/scss/main.scss",
